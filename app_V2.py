@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import sklearn
-from sklearn import preprocessing
+from sklearn.preprocessing import LabelEncoder
 import pickle
 
 # Load the predictor model from a pickle file
@@ -17,7 +16,8 @@ def encode_features(df, encoder_dict):
     category_col = ['workclass', 'education', 'maritalstatus', 'occupation', 'relationship', 'race', 'gender', 'nativecountry']
     for col in category_col:
         if col in encoder_dict:
-            le = preprocessing.LabelEncoder()
+#            le = preprocessing.LabelEncoder()
+            le = LabelEncoder()
             le.classes_ = np.array(encoder_dict[col], dtype=object)  # Load the encoder classes for this column
 
             # Handle unknown categories by using 'transform' method and a lambda function
