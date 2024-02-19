@@ -1,4 +1,5 @@
 numpy==1.24.3
 pandas==1.5.3
-sklearn==1.2.2
 streamlit==1.31.1
+scikit-image @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_3fh5dyitqb/croot/scikit-image_1682530834592/work
+scikit-learn @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_506rr4lm7n/croot/scikit-learn_1684954727383/work
