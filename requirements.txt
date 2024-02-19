@@ -1,8 +1,4 @@
 numpy==1.24.3
 pandas==1.5.3
-pycurl==7.45.2
-pydeck==0.8.1b0
-PyDispatcher==2.0.5
 sklearn==1.2.2
-scipy==1.10.1
 streamlit==1.31.1
